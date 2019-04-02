@@ -161,8 +161,7 @@
 				DC71D8E1197E067F00C665CB /* Supporting Files */,
 				DC709FEA1A3FDDE30055DCDE /* DeclinationTests.m */,
 			);
-			name = ObjectiveWMMTests;
-			path = meeus64Tests;
+			path = ObjectiveWMMTests;
 			sourceTree = "<group>";
 		};
 		DC71D8E1197E067F00C665CB /* Supporting Files */ = {
@@ -237,13 +236,15 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Crookneck Consulting LLC";
 				TargetAttributes = {
+					36F5D979225385C100478EC8 = {
+						ProvisioningStyle = Automatic;
+					};
 					DC71D8D0197E067F00C665CB = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = RMH7P6Q49N;
 					};
 					DC71D8DB197E067F00C665CB = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = RMH7P6Q49N;
 					};
 				};
 			};
@@ -463,8 +464,8 @@
 		DC71D8E8197E067F00C665CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				BITCODE_GENERATION_MODE = bitcode;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -514,7 +515,7 @@
 		DC71D8EB197E067F00C665CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = RMH7P6Q49N;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -534,7 +535,7 @@
 		DC71D8EC197E067F00C665CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = RMH7P6Q49N;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
