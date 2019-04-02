@@ -31,6 +31,12 @@ In order to obtain, for example, a magnetic heading from a heading relative to t
 
 The project is configured as a Dynamic Framework targeting iOS 8.1. The unit tests (using XCTest) demonstrate how to use the classes in the project.
 
+## Adding it to your project
+In order to build the framework select the ObjectiveWMM-Universal target and build it. This will produce a fat binary in the root folder of the project that will contain both arm and x86 architectures, so that the framework can work for both simulator and actual devices. A finder window will be opened for convenience.
+Drag and drop the generated ObjectiveWMM.framework file to your project. Make sure you not only link against the framework, but also embed it in your application. Afterwards add a new "Run Script" build phase to your target and add the following contents:
+`bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectiveWMM.framework/integrate-dynamic-framework.sh"`
+This will strip the unnecesary architectures from the framework, and is needed for your app to be published by Apple.
+
 ## What's included
 
 ObjectiveWMM includes a copy of the required source files from the original WMM2015 Linux C-language distribution (available [here](http://www.ngdc.noaa.gov/geomag/WMM/soft.shtml)).
