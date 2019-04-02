@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36331903225358C700EE0AA6 /* integrate-dynamic-framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 36331902225358C700EE0AA6 /* integrate-dynamic-framework.sh */; };
 		DC37B8661B3375E70041F93C /* ObjectiveWMM.h in Headers */ = {isa = PBXBuildFile; fileRef = DC70A01A1A400ED50055DCDE /* ObjectiveWMM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC709FCC1A3FDB2E0055DCDE /* CCMagneticDeclination.h in Headers */ = {isa = PBXBuildFile; fileRef = DC709FB11A3FDB2E0055DCDE /* CCMagneticDeclination.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC709FCD1A3FDB2E0055DCDE /* CCMagneticDeclination.m in Sources */ = {isa = PBXBuildFile; fileRef = DC709FB21A3FDB2E0055DCDE /* CCMagneticDeclination.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36331902225358C700EE0AA6 /* integrate-dynamic-framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "integrate-dynamic-framework.sh"; sourceTree = "<group>"; };
 		DC709FB11A3FDB2E0055DCDE /* CCMagneticDeclination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMagneticDeclination.h; sourceTree = "<group>"; };
 		DC709FB21A3FDB2E0055DCDE /* CCMagneticDeclination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMagneticDeclination.m; sourceTree = "<group>"; };
 		DC709FB31A3FDB2E0055DCDE /* CCMagneticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMagneticModel.h; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DC709FE21A3FDB9E0055DCDE /* Supporting Files */,
 				DC709FC41A3FDB2E0055DCDE /* WMM */,
 				DC709FEE1A3FE4A00055DCDE /* WMM.COF */,
+				36331902225358C700EE0AA6 /* integrate-dynamic-framework.sh */,
 			);
 			path = ObjectiveWMM;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				DC709FEF1A3FE4A00055DCDE /* WMM.COF in Resources */,
 				DC709FE01A3FDB2F0055DCDE /* PUBLIC_DOMAIN in Resources */,
+				36331903225358C700EE0AA6 /* integrate-dynamic-framework.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
